@@ -9,6 +9,7 @@
    slice of length 1 (without copying). This is the nonempty equivalent of
    `std::slice::from_ref`.
 - `NEVec::as_slice`, the equivalent of `Vec::as_slice` for nonempty vectors.
+- Implement `AsRef<[T]>` for `NEVec`.
 
 ## 1.4.0 (2026-07-28)
 
